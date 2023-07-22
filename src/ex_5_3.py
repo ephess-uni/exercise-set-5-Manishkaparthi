@@ -5,7 +5,7 @@ This module contains an entry point that:
 - shifts and scales the data to a mean of 0 and a standard deviation 1
 - writes the file to the output file argument
 """
-from argparse
+import argparse
 import numpy as np
 from argparse import ArgumentParser
 
