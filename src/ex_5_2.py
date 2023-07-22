@@ -20,10 +20,6 @@ if __name__ == "__main__":
     root_dir = get_repository_root()
     INFILE = root_dir / "data" / "ex_5_2-data.csv"
     OUTFILE = root_dir / "outputs" / "ex_5_2-processed.csv"
-
-    root_dir = get_repository_root()
-    INFILE = root_dir / "data" / "ex_5_2-data.csv"
-    OUTFILE = root_dir / "outputs" / "ex_5_2-processed.csv"
     
     os.makedirs(root_dir / "outputs", exist_ok=True)
     fldata = np.loadtxt(INFILE)
