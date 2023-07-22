@@ -26,5 +26,5 @@ if __name__ == "__main__":
     mean_ = np.mean(fldata)
     zero_mean = fldata - mean_
     std1 = np.std(zero_mean)
-    processed = zero_mean_data / std1
+    processed = zero_mean / std1
     np.savetxt(OUTFILE, processed,fmt='%.2e')
